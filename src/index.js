@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import { configureStore, history } from './store/configureStore';
-import Root from './containers/Root';
+import { configureStore, history } from './app/configureStore';
+import Root from './app/Root';
 
 const store = configureStore();
 
